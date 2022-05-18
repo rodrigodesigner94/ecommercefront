@@ -1,12 +1,11 @@
 import React from 'react';
-import * as C from './styled'
-import { Carousel } from '../src/components/Carousel'
+import SimpleSlider from '../src/components/Carousel';
+
 
 function App() {
   return (
-    <C.Container>
-    <Carousel />
-    </C.Container>
+    <SimpleSlider />
+  
   );
 };
 
